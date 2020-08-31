@@ -263,5 +263,30 @@ textarea {
 
 body {
   text-align: center;
-  margin: 20%;
+  font-size: 20px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  background: url("../joel-filipe-QwoNAhbmLLo-unsplash.jpg") no-repeat fixed center;
+  background-size: cover;
+  padding: 20%;
+}
+
+#wordButton {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, .7);
+  color: lightslategray;
+  padding: 10px 15px;
+  border-radius: 4px 0 0 4px;
+  border: 1px solid black;
+  margin-right: -5px;
+}
+
+#wordDisplay {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, .2);
+  width: 400px;
+  padding: 10px 15px;
+  border-radius: 0 4px 4px 0;
+  border: 1px solid transparent;
+  color: whitesmoke;
+  cursor: copy;
 }
